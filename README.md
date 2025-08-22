@@ -89,7 +89,17 @@ python retrieval/faiss_store.py
    ``` bash
 python app.py --evaluate
 ```
+```bash
 
+## Sample Query
+
+"46M, knee surgery, Pune, 3-month policy"
+
+
+## Sample Response
+
+"Yes, knee surgery is covered under the policy."
+```
 
 
 
