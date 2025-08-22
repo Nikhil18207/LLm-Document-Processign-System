@@ -30,7 +30,7 @@ This project is an advanced **Retrieval-Augmented Generation (RAG) system** desi
 
 ## 📂 Project Structure
 
-llm-docu/
+## llm-docu/
 ├── docs/ # Original PDF documents
 ├── parsing/ # Scripts for parsing and chunking documents
 ├── processed_text/ # Plain text files from parsed PDFs
