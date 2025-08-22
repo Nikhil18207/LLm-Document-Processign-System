@@ -80,11 +80,16 @@ python retrieval/faiss_store.py
 ```
 
 2. Run the main application
+
 -> Interactive mode
    ```bash
    python app.py
    ```
--> 
+-> Evaluation Mode:
+   ``` bash
+python app.py --evaluate
+```
+
 
 
 
