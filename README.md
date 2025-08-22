@@ -47,5 +47,44 @@ llm-docu/
 └── README.md
 </pre>
 
+---
+
+## ⚙️ Installation
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/Nikhil18207/LLm-Document-Processign-System.git
+cd LLm-Document-Processign-System
+
+```
+
+2. Create and activate a pytorch virtual environment
+```bash
+python -m venv rag_env
+source rag_env/bin/activate  # On Windows: rag_env\Scripts\activate
+```
+
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+## 🚀 Usage
+
+1. Process documents and create the FAISS index
+```bash
+python parsing/pdf_parser.py
+python parsing/chunker.py
+python retrieval/faiss_store.py
+```
+
+2. Run the main application
+-> Interactive mode
+   ```bash
+   python app.py
+   ```
+-> 
+
 
 
