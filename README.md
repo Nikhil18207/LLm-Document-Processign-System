@@ -30,13 +30,14 @@ This project is an advanced **Retrieval-Augmented Generation (RAG) system** desi
 
 ## 📂 Project Structure
 
-## llm-docu/
+<pre>
+llm-docu/
 ├── docs/ # Original PDF documents
 ├── parsing/ # Scripts for parsing and chunking documents
 ├── processed_text/ # Plain text files from parsed PDFs
 ├── embeddings/ # Scripts for embedding and reranking models
 ├── retrieval/ # Vector index storage and retrieval logic
-│ └── my_index.faiss (generated)
+│   └── my_index.faiss (generated)
 ├── fine_tune/ # Scripts and datasets for fine-tuning
 ├── fine_tuned_qwen_lora_adapters/
 ├── fine_tuned_reranker_adapters/
@@ -44,6 +45,7 @@ This project is an advanced **Retrieval-Augmented Generation (RAG) system** desi
 ├── llm.py # LLM loading and response generation logic
 ├── evaluation_dataset.json # Dataset for system evaluation
 └── README.md
+</pre>
 
 
 
