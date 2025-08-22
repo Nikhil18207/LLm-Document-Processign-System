@@ -1,0 +1,71 @@
+# Python and Virtual Environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.ruff_cache/
+*.venv
+venv/
+env/
+rag_env/
+.env
+*.env
+
+# PyTorch and Machine Learning
+*.pt
+*.pth
+*.bin
+*.pkl
+*.onnx
+checkpoints/
+fine_tuned_reranker_adapters/
+fine_tuned_qwen_lora_adapters/
+retrieval/my_index.faiss
+retrieval/text_mapping.pkl
+chunked_data/
+processed_text/
+fine_tune/
+*.safetensors
+
+# Datasets and Sensitive Data
+*.json
+evaluation_dataset.json
+fine_tune/training_dataset.json
+
+# Logs and Temporary Files
+*.log
+logs/
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# Jupyter Notebooks
+*.ipynb
+*.ipynb_checkpoints/
+
+# OS and IDE Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ML Experiment Artifacts
+runs/
+tensorboard/
+wandb/
+*.h5
+*.tfevents
+
+# Miscellaneous
+*.cache
+*.pickle
+*.npz
+*.npy
+*.db
+*.sqlite
